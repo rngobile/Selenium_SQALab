@@ -25,14 +25,22 @@ driver.find_element_by_link_text('ACCOUNT').click()
 #registerLink = \
 driver.find_element_by_link_text('Register').click()
 
-register_firstName = driver.find_element_by_name('firstname').send_keys(v_firstName)
-register_lastName = driver.find_element_by_name('lastname').send_keys(v_lastName)
-register_email = driver.find_element_by_name('email').send_keys(v_email)
-register_password = driver.find_element_by_name('password').send_keys(v_password)
-register_confirm = driver.find_element_by_name('confirmation').send_keys(v_password)
-
+register_firstName = driver.find_element_by_name('firstname')
+register_lastName = driver.find_element_by_name('lastname')
+register_email = driver.find_element_by_name('email')
+register_password = driver.find_element_by_name('password')
+register_confirm = driver.find_element_by_name('confirmation')
 register_news_letter_subscription = driver.find_element_by_id("is_subscribed")
-register_submit = driver.find_element_by_xpath("//button[@title='Register']").click()
+register_submit = driver.find_element_by_xpath("//button[@title='Register']")
+
+register_firstName.send_keys(v_firstName)
+register_lastName.send_keys(v_lastName)
+register_email.send_keys(v_email)
+register_password.send_keys(v_password)
+register_confirm.send_keys(v_password)
+register_news_letter_subscription.click()
+register_submit.click()
+
 
 driver.find_element_by_link_text("ACCOUNT").click()
 driver.find_element_by_link_text("Log Out").click()
