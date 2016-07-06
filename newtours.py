@@ -6,8 +6,6 @@ driver = webdriver.Firefox()
 driver.implicitly_wait(2)
 
 url = 'http://newtours.demoaut.com'
-driver.get(url)
-
 v_firstName = 'Ninja'
 v_lastName = 'Turtles'
 v_phone = '555-555-5555'
@@ -18,6 +16,8 @@ v_state = 'New York'
 v_postCode = '55555'
 v_userName = 'ninja.turtles'
 v_password = 'password'
+
+driver.get(url)
 
 register = driver.find_element_by_link_text('REGISTER')
 register.click()
@@ -58,7 +58,7 @@ verifyPass.send_keys(v_password)
 submit = driver.find_element_by_name('register')
 submit.click()
 
-signIn = driver.find_element_by_link('sign-in ')
+signIn = driver.find_element_by_link_text('sign-in')
 signIn.click()
 
 signInUser = driver.find_element_by_name('userName')
@@ -70,7 +70,7 @@ signInPass.send_keys(v_password)
 login = driver.find_element_by_name('login')
 login.click()
 
-profile = driver.find_element_by_link('PROFILE')
+profile = driver.find_element_by_link_text('PROFILE')
 profile.click()
 
 profileFirstName = driver.find_element_by_name('firstName')
@@ -97,4 +97,6 @@ profileState.send_keys(v_state)
 profilePostal = driver.find_element_by_name('postalCode')
 profilePostal.send_keys(v_postCode)
 
+profileCountry = driver.find_element_by_xpath("//select[@name='country']/option[@value='215']")
+profileCountry.click()
 

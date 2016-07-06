@@ -2,6 +2,10 @@ __author__ = 'Richard Ngo'
 
 from selenium import webdriver
 
+# Use Chrome
+# chrome_driver_path = dir + "\chromedriver.exe"
+# driver = webdriver.Chrome(chrome_driver_path)
+
 driver = webdriver.Firefox()
 driver.implicitly_wait(2)
 driver.maximize_window()
