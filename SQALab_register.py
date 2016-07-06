@@ -19,10 +19,7 @@ v_password = 'tester'
 
 driver.get(url)
 
-#accountLink = \
 driver.find_element_by_link_text('ACCOUNT').click()
-#driver.find_element_by_class_name('label').find_element_by_link_text('Account')
-#registerLink = \
 driver.find_element_by_link_text('Register').click()
 
 register_firstName = driver.find_element_by_name('firstname')
@@ -44,5 +41,7 @@ register_submit.click()
 
 driver.find_element_by_link_text("ACCOUNT").click()
 driver.find_element_by_link_text("Log Out").click()
+
+driver.close()
 
 
