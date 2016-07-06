@@ -7,7 +7,7 @@ import unittest
 driver = webdriver.Firefox()
 driver.implicitly_wait(2)
 
-user_name = "user_" + strftime("%Y%m%d%H%M%S", gmtime())
+user_name = "User_" + strftime("%Y%m%d%H%M%S", gmtime())
 
 
 url = 'http://www.aspire-global.net/SQALab'
@@ -19,8 +19,10 @@ v_password = 'tester'
 
 driver.get(url)
 
-driver.find_element_by_link_text('ACCOUNT').click()
-driver.find_element_by_link_text('Register').click()
+#driver.find_element_by_link_text('ACCOUNT').click()
+driver.find_element_by_xpath("//a[@data-target-element='#header-account']").click()
+driver.find_element_by_xpath("//a[@title='Register']").click()
+#driver.find_element_by_link_text('Register').click()
 
 register_firstName = driver.find_element_by_name('firstname')
 register_lastName = driver.find_element_by_name('lastname')
