@@ -1,14 +1,16 @@
 __author__ = 'Richard Ngo'
 
+import os
 from selenium import webdriver
 
 # Use Chrome
-# chrome_driver_path = dir + "\chromedriver.exe"
-# driver = webdriver.Chrome(chrome_driver_path)
+chrome_driver_path = os.getcwd() + "\chromedriver.exe"
+print (chrome_driver_path)
+driver = webdriver.Chrome(chrome_driver_path)
 
-driver = webdriver.Firefox()
+#driver = webdriver.Firefox()
 driver.implicitly_wait(2)
-driver.maximize_window()
+#driver.maximize_window()
 
 driver.get("http://www.aspire-global.net/SQALab/")
 
