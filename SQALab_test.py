@@ -3,6 +3,7 @@ __author__ = 'Richard Ngo'
 import os
 from selenium import webdriver
 
+os.
 # Use Chrome
 chrome_driver_path = os.getcwd() + "\chromedriver.exe"
 print (chrome_driver_path)
