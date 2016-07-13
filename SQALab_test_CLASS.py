@@ -10,6 +10,7 @@ class SearchTests(unittest.TestCase):
         #self.driver.maximize_window()
 
         self.driver.get("http://www.aspire-global.net/SQALab/")
+        #self.driver.get("http://demo.magentocommerce.com/")
 
     def test_search_by_category(self):
         self.search_field = self.driver.find_element_by_name("q")
