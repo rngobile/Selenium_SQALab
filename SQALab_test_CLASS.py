@@ -42,6 +42,54 @@ class SearchTests(unittest.TestCase):
 
        self.assertEqual(3, len(products))
 
+    def test_search_by_id(self):
+        self.driver.delete_all_cookies()
+        self.search_field = self.driver.find_element_by_id("search")
+        self.search_field.clear()
+        self.search_field.send_keys("penguins")
+        self.search_field.submit()
+
+        products = self.driver.find_elements_by_xpath("//h2[@class='product-name']/a")
+        print("\nFound " + str(len(products)) + " penguins:")
+        for product in products:
+            print (product.text)
+
+    def test_search_by_css(self):
+        self.search_field=self.driver.find_element_by_css_selector("#search")
+        self.search_field.clear()
+
+        self.search_field.send_keys("books")
+        self.search_field.submit()
+
+        products = self.driver.find_elements_by_xpath("//h2[@class='product-name']/a")
+        print("\nFound " + str(len(products)) + " books:")
+        for product in products:
+            print (product.text)
+
+    def test_search_by_xpath(self):
+        self.search_field=self.driver.find_element_by_xpath("//input[contains(@placeholder,'Search entire')]")
+        self.search_field.clear()
+
+        self.search_field.send_keys("warranty")
+        self.search_field.submit()
+
+        products = self.driver.find_elements_by_xpath("//h2[@class='product-name']/a")
+        print("\nFound " + str(len(products)) + " warranties:")
+        for product in products:
+            print (product.text)
+
+    def test_search_by_class(self):
+        self.search_field=self.driver.find_element_by_class_name('input-text')
+        self.search_field.clear()
+
+        self.search_field.send_keys("bag")
+        self.search_field.submit()
+
+        products = self.driver.find_elements_by_xpath("//h2[@class='product-name']/a")
+        print("\nFound " + str(len(products)) + " bags:")
+        for product in products:
+            print (product.text)
+
     @classmethod
     def tearDownClass(cls):
         cls.driver.quit()
