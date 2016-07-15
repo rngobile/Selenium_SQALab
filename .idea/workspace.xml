@@ -16,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SQALab$SQALab_register.coverage" NAME="SQALab_register Coverage Results" MODIFIED="1467767821972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQALab$windows_test.coverage" NAME="windows_test Coverage Results" MODIFIED="1468367749205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SQALab$Unittests_in_SQALab_register_CLASS.coverage" NAME="Unittests in SQALab_register_CLASS Coverage Results" MODIFIED="1468545696430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQALab$newtours.coverage" NAME="newtours Coverage Results" MODIFIED="1467763879243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQALab$Unittests_in_SQALab_test_CLASS.coverage" NAME="Unittests in SQALab_test_CLASS Coverage Results" MODIFIED="1468542594904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQALab$SQALab_test.coverage" NAME="SQALab_test Coverage Results" MODIFIED="1468365329347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -29,13 +30,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SQALab_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SQALab_test.py">
+      <file leaf-file-name="SQALab_register_CLASS.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SQALab_register_CLASS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60399336">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.70715475">
+              <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
               <folding>
-                <element signature="e#28#37#0" expanded="true" />
+                <element signature="e#28#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,21 +46,9 @@
         <entry file="file://$PROJECT_DIR$/SQALab_test_CLASS.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
+              <caret line="99" column="7" selection-start-line="99" selection-start-column="0" selection-end-line="100" selection-end-column="19" />
               <folding>
                 <element signature="e#28#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="windows_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/windows_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,6 +71,7 @@
         <option value="$PROJECT_DIR$/SQALab_test.py" />
         <option value="$PROJECT_DIR$/windows_test.py" />
         <option value="$PROJECT_DIR$/SQALab_test_CLASS.py" />
+        <option value="$PROJECT_DIR$/SQALab_register_CLASS.py" />
       </list>
     </option>
   </component>
@@ -129,7 +119,7 @@
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in SQALab_test_CLASS">
+  <component name="RunManager" selected="Python tests.Unittests in SQALab_register_CLASS">
     <configuration default="false" name="SQALab_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,6 +190,29 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in SQALab_register_CLASS" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SQALab" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQALab_register_CLASS.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -395,7 +408,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in SQALab_test_CLASS" type="tests" factoryName="Unittests" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in RegisterTest" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -407,10 +420,10 @@
       <module name="SQALab" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQALab_test_CLASS.py" />
-      <option name="CLASS_NAME" value="" />
+      <option name="CLASS_NAME" value="RegisterTest" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -418,18 +431,20 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_test_CLASS" />
-      <item index="1" class="java.lang.String" itemvalue="Python.SQALab_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.SQALab_register" />
-      <item index="3" class="java.lang.String" itemvalue="Python.windows_test" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.SQALab_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SQALab_register" />
+      <item index="2" class="java.lang.String" itemvalue="Python.windows_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in RegisterTest" />
       <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in SearchTests" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_CLASS" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in SearchTests" />
-        <item index="1" class="java.lang.String" itemvalue="Python.windows_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SQALab_test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_CLASS" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in SearchTests" />
+        <item index="2" class="java.lang.String" itemvalue="Python.windows_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.SQALab_test" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +519,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/SQALab_register_CLASS.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -533,7 +557,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
-            <element signature="e#24#33#0" expanded="true" />
+            <element signature="e#24#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,7 +587,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
-            <element signature="e#24#33#0" expanded="true" />
+            <element signature="e#24#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -679,7 +703,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
-            <element signature="e#24#33#0" expanded="true" />
+            <element signature="e#24#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQALab_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#28#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -687,19 +721,19 @@
     <entry file="file://$PROJECT_DIR$/SQALab_test_CLASS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
+          <caret line="99" column="7" selection-start-line="99" selection-start-column="0" selection-end-line="100" selection-end-column="19" />
           <folding>
             <element signature="e#28#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQALab_test.py">
+    <entry file="file://$PROJECT_DIR$/SQALab_register_CLASS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60399336">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.70715475">
+          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
           <folding>
-            <element signature="e#28#37#0" expanded="true" />
+            <element signature="e#28#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
