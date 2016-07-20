@@ -72,7 +72,7 @@ class RegisterTest(unittest.TestCase):
                 driver.find_element_by_link_text("ACCOUNT").click()
                 self.assertTrue(self.driver.find_element_by_link_text("Log Out").is_displayed())
                 driver.find_element_by_link_text("Log Out").click()
-            
+
             driver.get(url)
 
             #self.driver.implicitly_wait(60)
