@@ -1,0 +1,16 @@
+modules to read excel file
+
+C:\Windows\system32>pip install xlrd
+Collecting xlrd
+  Downloading xlrd-1.0.0.tar.gz (2.6MB)
+    100% |################################| 2.6MB 285kB/s
+Installing collected packages: xlrd
+  Running setup.py install for xlrd ... done
+Successfully installed xlrd-1.0.0
+
+
+C:\Users\GBTC440019ur>pip install ddt
+Collecting ddt
+  Downloading ddt-1.1.0-py2.py3-none-any.whl
+Installing collected packages: ddt
+Successfully installed ddt-1.1.0
