@@ -16,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SQALab$SQALab_register.coverage" NAME="SQALab_register Coverage Results" MODIFIED="1467767821972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQALab$Unittests_in_PopupWindowTest.coverage" NAME="Unittests in PopupWindowTest Coverage Results" MODIFIED="1469142085819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SQALab$Unittests_in_ScreenShotTest.coverage" NAME="Unittests in ScreenShotTest Coverage Results" MODIFIED="1469143498406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQALab$windows_test.coverage" NAME="windows_test Coverage Results" MODIFIED="1468367749205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQALab$Unittests_in_SQALab_register_CLASS.coverage" NAME="Unittests in SQALab_register_CLASS Coverage Results" MODIFIED="1468969348591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQALab$newtours.coverage" NAME="newtours Coverage Results" MODIFIED="1467763879243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -56,11 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopupWindowTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PopupWindowTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PopupWindowTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.670347">
+            <state vertical-scroll-proportion="0.0">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenShotTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ScreenShotTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5094637">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -112,6 +125,7 @@
         <option value="$PROJECT_DIR$/SQALab_register_CLASS.py" />
         <option value="$PROJECT_DIR$/SQALab_register_import_CLASS.py" />
         <option value="$PROJECT_DIR$/PopupWindowTest.py" />
+        <option value="$PROJECT_DIR$/ScreenShotTest.py" />
       </list>
     </option>
   </component>
@@ -159,25 +173,7 @@
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in PopupWindowTest">
-    <configuration default="false" name="windows_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SQALab" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/windows_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in ScreenShotTest">
     <configuration default="false" name="Unittests in SearchTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,6 +255,29 @@
       <module name="SQALab" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PopupWindowTest.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in ScreenShotTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SQALab" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ScreenShotTest.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -483,19 +502,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in RegisterTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.windows_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in SearchTests" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_CLASS" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_import_CLASS" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in PopupWindowTest" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in SearchTests" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_CLASS" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_import_CLASS" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in PopupWindowTest" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in ScreenShotTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in PopupWindowTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_import_CLASS" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_CLASS" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in SearchTests" />
-        <item index="4" class="java.lang.String" itemvalue="Python.windows_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in ScreenShotTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in PopupWindowTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_import_CLASS" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in SQALab_register_CLASS" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in SearchTests" />
       </list>
     </recent_temporary>
   </component>
@@ -871,8 +890,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PopupWindowTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.670347">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenShotTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5094637">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
